@@ -1,0 +1,131 @@
+@use ".././glo/let"as*;
+
+.rrr{
+    border: 2px solid $y ;
+    border-radius: 50%;
+    width: 100%;
+    margin-bottom:20px ;
+}
+.rr{
+    width:  100px !important;
+    margin-bottom: 40px;
+    margin:  auto;
+}
+
+
+
+.show{
+    top: 0;
+    left: 0 !important;
+    transform: translateX(0%) !important;
+    width: 258px !important;
+    transition: 1s;
+}
+
+
+.offcanvas.offcanvas-end {
+    top: 0;
+    left:  -40%;
+    transform: translateX(0%) !important;
+    width: 258px !important;
+    transition: 1s;
+
+    header{
+        width:258px;
+        height: 100%;
+        position: fixed;
+        background-color: #022c43;
+        overflow-y: auto;
+        .oo{
+            width: 84%;
+            margin: auto;
+            .offcanvas-header {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin: 0;
+                padding: 0;
+                button{
+                    padding: 5px;
+                    margin-top: 3px;
+                }
+            }
+            .qqqq{
+                margin:20px 10px ;
+                h4{
+                    color: $y;
+                }
+                
+                    div {
+
+                        li{
+                            margin-top: 10px;
+                        }
+                        a{
+                            display: inline-block;
+                            padding: 3px 6px;
+                            border-radius:25% 10% 25%  ;
+                            margin-right: 12px;
+                            background-color: $y;
+                            color: rgb(30, 30, 30);
+                            transition: .5s;
+                            border:1px  solid  $y;
+                            &:hover{
+                                transform: translate3d(1px, -4px,1px);
+                                background-color: rgb(30, 30, 30);
+                                color: $y;
+                            }
+                        }
+                }
+            }
+        .tttt{
+            list-style: none;
+            margin:o ;
+            padding: 0px 10px 10px 14px;
+            text-align: left;
+            li{
+                padding: 0;
+                .yy{
+                    color:  $y;
+                    align-items:center !important ;
+                    display: block;
+                    margin-top: 4px;
+                    transition: .5s;
+                    svg{
+                        font-size: 24px;
+                    }
+                    &:hover{
+                        transform: translate(7px,0px);
+                    }
+                }
+            }
+    
+        }
+    
+        }
+    
+    
+    }
+}
+
+.navbar-toggler{
+    margin: 0 0 0 auto;
+    transition:.7s ;
+    position: fixed;
+    top: 21px;
+    right: 21px;
+}
+.navbar-toggler-icon{
+    color: $y;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0 !important;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+    position: fixed !important;
+}
+
+.offcanvas-body {
+    padding: 0 !important;
+}
+
+

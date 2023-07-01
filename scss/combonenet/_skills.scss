@@ -1,0 +1,217 @@
+@use ".././glo/let"as*;
+#skills{
+    background-color: #023049;
+    padding: 80px 0;
+    .container{
+        .qz{
+            color:$y ;  
+            position: relative;
+            &:before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 65px;
+                height: 100%;
+                padding-bottom:44px ;
+                border-bottom-style: solid;
+                border-bottom-color:$y ;
+            }
+            opacity: 0;
+            transform: translate(0px, 50px);
+            transition: 1s;
+            margin-bottom: 30px;
+        }
+        .qaz{
+            opacity: 0;
+            transition: 1s;
+            transform: translate(300px, 0px);
+            color: #fff;
+            h3{
+                margin: 30px 0;
+            }
+            span{
+                color: $y;
+            }
+            @media (max-width:800px) {
+                flex: none;
+                width: 100%;
+            }
+        }
+        .mahut{
+            @media (max-width:800px) {
+                flex: none;
+                width: 100%;
+            }
+            opacity: 0;
+            transform: translate(-300px, 0px);
+            transition: 1s;
+            .qwe{
+                width: 100%;
+                margin-left: 10%;
+                height: 26px;
+                background-color: $y;
+                border-radius:0 100px 100px 0 ;
+                position: relative;
+                margin-bottom: 30px;
+                margin-top: 80px;
+                @media (max-width:800px) {
+                    margin:  30px 0;
+                }
+                h3{
+                    position: absolute;
+                    font-size: 15px;
+                    padding: 4px 0px;
+                    display: inline-block;
+                    background-color: #fff;
+                    margin: 0;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 20%;
+                    text-align: center;
+                }
+                div{
+                    height: 100%;
+                    border: 1px solid $y;
+                    border-radius:0 100px 100px 0 ;
+                    display: block;
+                    span{
+                        text-align: center;
+                        color: #fff;
+                        width: 70%;
+                        background-color: #000;
+                        display:inline-block;
+                        border-radius:0 100px 100px 0 ;
+                        height: 100%;
+                        margin-left:20% ;
+                    }
+                }
+            }
+            .qwe1{
+                width: 100%;
+                margin-left: 10%;
+                height: 26px;
+                background-color: $y;
+                border-radius:0 100px 100px 0 ;
+                position: relative;
+                margin-bottom: 30px;
+                @media (max-width:800px) {
+                    margin:  30px 0;
+                }
+                h3{
+                    position: absolute;
+                    font-size: 15px;
+                    padding: 4px 0px;
+                    display: inline-block;
+                    background-color: #fff;
+                    margin: 0;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 20%;
+                    text-align: center;
+                }
+                div{
+                    height: 100%;
+                    border: 1px solid $y;
+                    border-radius:0 100px 100px 0 ;
+                    display: inline-block;
+                    width: 100%;
+                    span{
+                        text-align: center;
+                        color: #fff;
+                        width: 60%;
+                        background-color: #000;
+                        display:inline-block;
+                        border-radius:0 100px 100px 0 ;
+                        height: 100%;
+                        margin-left:20% ;
+
+                    }
+                }
+            }
+            .qwe2{
+                width: 100%;
+                margin-left: 10%;
+                height: 26px;
+                background-color: $y;
+                border-radius:0 100px 100px 0 ;
+                position: relative;
+                margin-bottom: 30px;
+                @media (max-width:800px) {
+                    margin:  30px 0;
+                }
+                h3{
+                    position: absolute;
+                    font-size: 15px;
+                    padding: 4px 0px;
+                    display: inline-block;
+                    background-color: #fff;
+                    margin: 0;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 20%;
+                    text-align: center;
+                }
+                div{
+                    height: 100%;
+                    border: 1px solid $y;
+                    border-radius:0 100px 100px 0 ;
+                    span{
+                        text-align: center;
+                        color: #fff;
+                        width: 65%;
+                        background-color: #000;
+                        display:inline-block;
+                        border-radius:0 100px 100px 0 ;
+                        height: 100%;
+                        margin-left:20% ;
+                    }
+                }
+            }
+            .qwe3{
+                width: 100%;
+                margin-left: 10%;
+                height: 26px;
+                background-color: $y;
+                border-radius:0 100px 100px 0 ;
+                position: relative;
+                margin-bottom: 30px;
+                @media (max-width:800px) {
+                    margin:  30px 0;
+                }
+                h3{
+                    width: 20%;
+                    position: absolute;
+                    font-size: 15px;
+                    padding: 4px 0px;
+                    display: inline-block;
+                    background-color: #fff;
+                    margin: 0;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    text-align: center;
+                }
+                div{
+                    height: 100%;
+                    border: 1px solid $y;
+                    border-radius:0 100px 100px 0 ;
+                    span{
+                        text-align: center;
+                        color: #fff;
+                        width: 55%;
+                        background-color: #000;
+                        display:inline-block;
+                        border-radius:0 100px 100px 0 ;
+                        height: 100%;
+                        margin-left:20% ;
+                    }
+                }
+            }
+        }
+    }
+    
+}
